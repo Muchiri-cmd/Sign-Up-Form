@@ -26,6 +26,7 @@
     padding:3em 0;
     background-color: whitesmoke;
     border-radius: 5px;
+    height:100vh;
 }
 .form-content h4{
     text-align: left;

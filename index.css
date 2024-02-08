@@ -10,9 +10,9 @@
 
 }
 .main-container{
-    height:auto;
+    height:100vh;
     width:70%;
-    margin: 0.5em 10em;
+    margin: auto;
     display: flex;
     padding:0.5em;
 }

@@ -13,6 +13,7 @@
 .main-container{
     height:auto;
     width:85%;
+    width:80%;
     margin: auto;
     display: flex;
     padding:0.5em;
@@ -27,6 +28,7 @@
     padding:3em 0;
     background-color: whitesmoke;
     border-radius: 5px;
+    height:100vh;
 }
 .form-content h4{
     text-align: left;
@@ -102,7 +104,6 @@ input:valid{
 }input:invalid{
     outline:1.5px solid red;
 }
-
 .form-container{
     box-shadow:-3px 2px 5px 1px grey;
     height:auto;

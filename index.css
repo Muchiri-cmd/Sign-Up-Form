@@ -16,7 +16,6 @@
     display: flex;
 }
 .side-bar{
-    height:auto;
     width:45%;
     position:relative;
 }
@@ -97,7 +96,7 @@ input::placeholder{
 .form-container{
     box-shadow:-3px 2px 5px 1px grey;
     height:auto;
-    margin:1.5em 0;
+    margin:1em 0;
     background-color: white;
     padding:1.2em;   
 }
@@ -145,5 +144,57 @@ a{
     margin-left:.3em;
 }
 .eg{
-    font-size: 1.2em;
+    font-size: 1em;
+}
+
+@media screen and (max-width:1200px){
+    * {
+        font-size:1.35rem;
+    }
+    .main-container{
+        width:98%;
+    }
+    .form-content{
+        padding:1rem 0;
+        h4{
+            margin:0 1rem;
+            
+        }
+    }
+}
+@media screen and (max-width:950px){
+    .side-bar{
+        width:30%;
+    }
+    .sidebar-title{
+        font-size:3rem;
+    }
+    #logo-image{
+        height:5rem;
+        margin-right: 1em;
+    }
+    .form-container{
+        padding:.5rem;
+    }
+}
+@media screen and (max-width:800px){
+    .input-div{
+        width:80%;
+    }
+    form{
+        margin:auto;
+        justify-content: center;
+        gap:.5rem;
+    }
+}
+@media screen and (max-width:600px){
+    *{
+        font-size: 1rem;
+    }
+    .main-container{
+        margin:0 auto;
+    }
+    .side-bar-logo{
+        display: none;
+    }
 }
